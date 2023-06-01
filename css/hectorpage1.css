@@ -1,0 +1,100 @@
+.columnas{
+                height: 450px;
+                border-radius: 15px;
+                background-color: white;
+                border: solid 2px black;
+                margin: 14px;
+            }
+            .container{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+#athletic:hover{
+    background-color: red;
+}
+
+#athletico:hover{
+    background-color: red;
+}
+
+#osasuna:hover{
+    background-color: red;
+}
+
+#cadiz:hover{
+    background-color: yellow;
+}
+
+#elche:hover{
+    background-color: green;
+}
+
+#barcelona:hover{
+    background-color: mediumblue;
+}
+
+#getafe:hover{
+    background-color: blue;
+}
+
+#girona:hover{
+    background-color: red;
+}
+
+#rayo:hover{
+    background-color: red;
+}
+
+#celta:hover{
+    background-color: skyblue;
+}
+
+#espanyol:hover{
+    background-color: blue;
+}
+
+#mallorca:hover{
+    background-color: red;
+}
+
+#betis:hover{
+    background-color: forestgreen;
+}
+
+#madrid:hover{
+    background-color: mediumpurple;
+}
+
+#sociedad:hover{
+    background-color: blue;
+}
+
+#valladolid:hover{
+    background-color: purple;
+}
+
+#sevilla:hover{
+    background-color: red;
+}
+
+#almeria:hover{
+    background-color: red;
+}
+
+#valencia:hover{
+    background-color: orangered;
+}
+
+#villarreal:hover{
+    background-color: yellow;
+}
+

@@ -1,0 +1,59 @@
+#hystori{
+                border:solid;
+                border-color:black;
+                margin:50px;
+                color:black;
+                background-color: gainsboro;
+               
+}
+
+ .descenso{
+                color:red;
+                text-align: center;
+}
+
+.tabla{
+                color:black;
+                text-align: center;
+}
+
+.europa{
+                color:orange;
+                text-align: center;
+            }
+            
+            .copadelrey{
+                color:darkseagreen;
+                text-align: center;
+            }
+
+.champions{
+                color:cornflowerblue;
+                text-align: center;
+}
+
+.flex-container{
+                display: flex;
+                justify-content: center;
+                padding: 0px;
+}
+
+td{border:solid;
+    width: 50px;
+}
+
+table {
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                border:solid;border-color:red;margin:20px;color:black;background-color: gainsboro;
+}
+
+li:hover{
+    background-color: red;
+}
+
+.thebest{
+    text-align: center;
+    border: solid 2px red;
+}

@@ -1,0 +1,199 @@
+/*universal selector*/
+*{box-sizing: border-box;  
+}
+
+.size_icon{
+font-size: 25px;
+}
+.menu_drop>li>a{
+background-color: #333;
+color: white;
+padding: 10px;
+display: block;
+text-decoration: none;
+min-width: 50px;
+text-align:center;
+}
+/*Nested list*/
+.menu_drop>li>ul>li>a{
+background-color: #333;
+color: white;
+padding: 10px;
+display: block;
+text-decoration: none;
+min-width: 100px;
+text-align:center;
+}
+/*List and nested list*/
+.menu_drop li>a:hover{
+color: black;
+background-color: lightgrey;
+}
+/*By default the nested list is hidden*/
+.menu_drop>li>ul{
+display: none;
+position: absolute; /*the dropdown is over the content*/
+}
+/*When you (hovering) roll the cursor over the item, the drop-down-menu appears*/
+.menu_drop>li:hover> ul {
+display:flex;
+}
+
+.menu_pc {
+display: none;
+}
+
+/*element selector*/
+header, section, aside, footer, nav li{
+padding: 2%;
+border: 1px solid white;
+align-content: flex-end;
+}
+nav ul{margin:0;padding:0;
+list-style: none;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;}
+.container{ display:flex;
+flex-direction:row;
+flex-wrap: wrap;
+
+} 
+
+article{display: 
+    flex;
+    flex-direction: 
+    column;}
+section{margin:
+    0%;
+}/*
+li{
+    height: 35px;
+}
+footer{
+    background-color:
+    darkviolet;
+    padding:1%;}
+.containerdiv{
+    display:
+    flex;
+    flex-direction:
+    row;flex-wrap: wrap;}
+
+nav ul {height:
+    100%;color:white
+}
+
+
+/*classes*/
+.black{background-color:black;
+        padding:1%;text-align: center;}
+
+
+
+
+.yellow{background-color:
+        yellow;
+        padding:1%;}
+.red{background-color: 
+     red
+     ;padding:1%;}
+.blue{background-color:
+      blue;
+      padding:1%;}
+.green{background-color: 
+       green;
+       padding:1%;}
+
+
+ .image{
+     width: 100%;
+}
+
+h1{
+    padding-left: 25%;
+    color: red;
+    text-align: center;
+}
+
+a:visited{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*for mobile phones*/
+[class*="col-"]{ width: 100%;}
+@media only screen and (min-width: 550px) {
+/*for tablets:*/
+.col-s-1 {width: 8.33%;}
+ .col-s-2 {width: 16.66%;}
+ .col-s-3 {width: 25%;}
+ .col-s-4 {width: 33.33%;}
+ .col-s-5 {width: 41.66%;}
+ .col-s-6 {width: 50%;}
+ .col-s-7 {width: 58.33%;}
+ .col-s-8 {width: 66.66%;}
+ .col-s-9 {width: 75%;}
+ .col-s-10 {width: 83.33%;}
+ .col-s-11 {width: 91.66%;}
+ .col-s-12 {width: 100%;}
+
+    .menu_movil {
+display: none;
+}
+.menu_pc {
+display: flex;
+}
+}
+@media only screen and (min-width: 768px) {
+/*for desktop*/
+ .col-1 {width: 8.33%;}
+ .col-2 {width: 16.66%;}
+ .col-3 {width: 25%;}
+ .col-4 {width: 33.33%;}
+ .col-5 {width: 41.66%;}
+ .col-6 {width: 50%;}
+ .col-7 {width: 58.33%;}
+ .col-8 {width: 66.66%;}
+ .col-9 {width: 75%;}
+ .col-10 {width: 83.33%;}
+ .col-11 {width: 91.66%;}
+ .col-12 {width: 100%;}
+
+nav ul {height: 100%;}
+    
+}
+
+/*for the footer*/
+.clasificacion{
+    text-align: center;
+    color: red;
+    font-weight:bold;
+    text-decoration: underline;
+}
+.gray{background-color:gainsboro;}
+
+#arrow{
+    width: 10%;
+}
+
+.arrow{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sponsors{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.withheight{
+    width: 100%;
+    height: 100%;
+   padding: 2%;
+}

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE players [
+  <!ELEMENT players (player*)>
+  <!ELEMENT player (name, position, team)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT position (#PCDATA)>
+  <!ELEMENT team (#PCDATA)>
+]>
+<players>
+  <player>
+    <name>Lionel Messi</name>
+    <position>Forward</position>
+    <team>Argentina</team>
+  </player>
+  <player>
+    <name>Cristiano Ronaldo</name>
+    <position>Forward</position>
+    <team>Portugal</team>
+  </player>
+  <player>
+    <name>Neymar Jr.</name>
+    <position>Forward</position>
+    <team>Brazil</team>
+  </player>
+    <player>
+    <name>Andres Iniesta</name>
+    <position>Midfielder</position>
+    <team>Spain</team>
+  </player>
+    <player>
+    <name>Jose Luis Gaya</name>
+    <position>Defender</position>
+    <team>Spain</team>
+  </player>
+    <player>
+    <name>Karim Benzema</name>
+    <position>Forward</position>
+    <team>Francia</team>
+  </player>
+  <player>
+    <name>Iker Casillas</name>
+    <position>Goalkeeper</position>
+    <team>Spain</team>
+  </player>
+</players>

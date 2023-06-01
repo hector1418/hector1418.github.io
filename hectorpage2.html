@@ -1,0 +1,327 @@
+<!DOCTYPE html> 
+
+<html lang="en"> 
+<head>
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/hecgalcommon_style.css">
+<link rel="stylesheet" href="css/hectorpage2.css">
+<title>La Liga Santander</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    
+      
+<body>
+
+<header class="gray container col-s-12 col-12">
+     <a href="hectorpage1.html"></a>
+<div class="col-s-3 col-3" id="UP">
+    <img class=" image " src="images/Index/laliga2.png" alt=laliga></div>
+    <h1 class="col-s-9 col-9">Santander</h1>
+    
+</header>  
+
+    
+<nav class="menu">
+    <ul class="menu_movil menu_drop">
+    <li><a href="#menu" class="size_icon"> <i class="fa fa-bars"></i> </a>
+<ul> 
+    <li class="black col-3 col-s-3"><a href="index.html">HOME</a></li>
+<li class="black col-3 col-s-3"><a href="hectorpage1.html">CLUBS HISTORY</a></li>
+<li class="black col-3 col-s-3"><a href="hectorpage2.html">TOP 5 BEST PLAYERS</a></li>
+<li class="black col-3 col-s-3"><a href="hectorgallery.html">TEAM STADIUMS</a></li>
+</ul>
+</li>
+</ul>
+    
+<ul class="menu_pc menu_drop">
+<li class="black col-3 col-s-3"><a href="index.html">HOME</a></li>
+<li class="black col-3 col-s-3"><a href="hectorpage1.html">CLUBS HISTORY</a></li>
+<li class="black col-3 col-s-3"><a href="hectorpage2.html">TOP 5 BEST PLAYERS</a></li>
+<li class="black col-3 col-s-3"><a href="hectorgallery.html">TEAM STADIUMS</a></li>
+</ul>
+<a href="hectorpage1.html"></a>
+</nav>
+
+<h2 class="clasificacion">Top 5 best players</h2>
+
+<div class="container col-12 col-s-12">
+
+
+  <div class="col-4 col-s-5">
+
+    <div>
+      <h3>PLAYERS CALLED TO LA LIGA AWARDS</h3>
+        <ul class="doot">
+            <li>Karim Benzema -> Ballon d'Or winner</li>
+            <li>Alexia Putellas -> Ballon d'Or winner</li>
+            <li>Dibu Martinez -> Best goalkeeper award</li>
+            <li>Lionel Scaloni -> Best Coach Award</li>
+        </ul>          
+    </div>
+
+    <div>
+      <h3>4 best teams and their 2 best players</h3>
+        <ul class="doot">
+            <li>
+              <ol>
+                <li>Barcelona
+                  <ol>
+                    <li>Sergio Busquets</li>
+                    <li>Lewandoski</li>
+                  </ol>
+                </li>
+                <li>Real Madrid
+                  <ol>
+                    <li>Karim benzema</li>
+                    <li>Vinicius Junior</li>
+                  </ol>
+                </li>
+                <li>Real Sociedad
+                  <ol>
+                    <li>David Silva</li>
+                    <li>Asier Illarramendi</li>
+                  </ol>
+                </li>
+                <li>Athlético de Madrid
+                  <ol>
+                    <li>Koke Resurrecció</li>
+                    <li>Oblak</li>
+                  </ol>
+                </li>
+                </ol>
+            </li>
+        </ul>          
+    </div>
+
+    <div>
+      <h3>Top 4 best league teams</h3>
+        <ol>
+            <li>Barcelona</li>
+            <li>Real Madrid</li>
+            <li>Real Sociedad</li>
+            <li>Athlético de Madrid</li>
+        </ol>          
+    </div>
+
+</div>
+
+<div class="col-4 col-s-5">
+<form>
+  <h2>Questions about the 2010 World Cup:</h2>
+  <p>1. What day does this world start?</p>
+  <input type="date" name="discovery" id="q1">
+  <br><br>
+  <p>2.What was the number of the MVP player?</p>
+  <input type="number" name="novel" min="1" max="10000" id="q2">
+  <br><br>
+  <p>3.Which of these teams was the one that won the final of that World Cup?</p>
+  <select id="q3">
+  <option value="Empty">Select a Country</option>
+  <option value="Uruguay">Uruguay</option>
+  <option value="Spain">Spain</option>
+  <option value="Netherlands">Netherlands</option>
+  <option value="Germany">Germany</option>
+  </select>
+  <br><br>
+  <p>4.Who was the MVP player of the tournament</p>
+  <input type="radio" name="king" value="Genghis" id="q41"> Wesley Sneijder<br>
+  <input type="radio" name="king" value="Philip" id="q42"> David Villa<br>
+  <input type="radio" name="king" value="Louis" id="q43"> Diego Forlán<br>
+  <input type="radio" name="king" value="Henry" id="q44"> Thomas Müller<br>
+  <input type="radio" name="king" value="Julius" id="q45"> Iker Casillas<br>
+  <br>
+  <p>5.What was the MVP goalkeeper of the tournament?</p>
+  <input type="checkbox" name="happiness" value="Nietzsche" id="q51"> Eduardo Portugal<br>
+  <input type="checkbox" name="happiness" value="Socrates" id="q52"> Iker Casillas España<br>
+  <input type="checkbox" name="happiness" value="Confucious" id="q53"> Manuel Neuer Alemania<br>
+  <input type="checkbox" name="happiness" value="Lao" id="q54"> Fernando Muslera Uruguay<br>
+  <br>
+  <input type="button" onclick="check()" value="Check">
+  <p id="mark"> </p>
+  <p id="feedback"> </p>
+  <script>
+    function check() {
+      var q1 = document.getElementById("q1").value;
+      var q2 = document.getElementById("q2").value;
+      var q3 = document.getElementById("q3").value;
+      var q41 = document.getElementById("q41").checked;
+      var q42 = document.getElementById("q42").checked;
+      var q43 = document.getElementById("q43").checked;
+      var q44 = document.getElementById("q44").checked;
+      var q45 = document.getElementById("q45").checked;
+      var q51 = document.getElementById("q51").checked;
+      var q52 = document.getElementById("q52").checked;
+      var q53 = document.getElementById("q53").checked;
+      var q54 = document.getElementById("q54").checked;
+  
+      var mark = 0;
+      var feedback = "Feedback: <br>";
+  
+      // question 1: check a date
+      if (q1 == "2010-06-11") {
+        mark++;
+        feedback += "Question 1: Correct! <br>";
+      } else if (q1 == "") {
+        feedback += "Question 1: Please answer this question. <br>";
+      } else {
+        feedback += "Question 1: Incorrect. <br>";
+      }
+  
+      // question 2: check a number
+      if (q2 == "7") {
+        mark++;
+        feedback += "Question 2: Correct! <br>";
+      } else if (q2 == "") {
+        feedback += "Question 2: Please answer this question. <br>";
+      } else {
+        feedback += "Question 2: Incorrect. <br>";
+      }
+  
+      // question 3: check a text or string
+      if (q3 == "Spain") {
+        mark++;
+        feedback += "Question 3: Correct! <br>";
+      } else if (q3 == "empty") {
+        feedback += "Question 3: Please answer this question. <br>";
+      } else {
+         feedback += "Question 3: Incorrect. <br>";
+      }
+  
+      // question 4: check a radio input
+      if (q42) {
+        mark++;
+        feedback += "Question 4: Correct! <br>";
+      } else if (!q41 && !q42 && !q43 && !q44 && !q45) {
+        feedback += "Question 4: Please answer this question. <br>";
+      } else {
+        feedback += "Question 4: Incorrect. <br>";
+      }
+  
+      // question 5: check a checkbox input
+      if (q52) {
+        mark++;
+        feedback += "Question 5: Correct! <br>";
+      } else if (!q51 && !q52 && !q53 && !q54) {
+        feedback += "Question 5: Please answer this question. <br>";
+      } else {
+        feedback += "Question 5: Incorrect. <br>";
+      }
+  
+      document.getElementById("mark").innerHTML = "Final mark: " + mark;
+      document.getElementById("feedback").innerHTML = feedback;
+    }
+  </script>
+</form>
+</div>
+
+<div class="form col-4 col-s-6">
+   
+  <p>Nombre: <input type="text" name="nombre" size="10"></p>
+
+<p>Apellidos: <input type="text" name="apellidos" size="20"></p>
+
+<p>Nacionalidad: <input type="text" name="nacionalidad" size="15"></p>
+
+
+<form class="options">
+  <p class="menu">Choose your favorite club:</p>
+<select name="menu">
+    <option selected>...</option>
+    <optgroup label="Champions">
+    <option value="1">Barcelona</option>
+    <option value="2">Real Madrid</option>
+    <option value="3">Real Sociedad</option>
+    <option value="4">Atlético Madrid</option>
+    </optgroup>
+    <optgroup label="Copa del Rey">
+    <option value="5">Villarreal</option>
+    </optgroup>
+    <optgroup label="Europa League">
+    <option value="6">Betis</option>
+    </optgroup>
+    <optgroup label="Tabla Restante">
+    <option value="7">Osasuna</option>
+    <option value="8">Athletic</option>
+    <option value="9">Rayo Vallecano</option>
+    <option value="10">Mallorca</option>
+    <option value="11">Girona</option>
+    <option value="12">Valencia</option>
+    <option value="13">Almería</option>
+    <option value="14">Espanyol</option>
+    <option value="15">Getafe</option>
+    <option value="16">Celta</option>
+    <option value="17">Valladolid</option>
+    </optgroup>
+    <optgroup label="Descenso">
+    <option value="18">Cádiz</option>
+    <option value="19">Sevilla</option>
+    <option value="20">Elche</option>
+    </optgroup>
+  
+</select>
+</form>
+
+<br><br>
+<button type="submit">
+  <img src="images/send.png" alt="imagen" width="32" height="32" style="vertical-align: middle">
+  Enviar
+</button>
+</div>
+</div>
+
+<div class="arrow"> 
+  <a class="arrow" href="#UP"><img id="arrow" src="images/Index/flecha.png" alt=arrow></a>
+  </div>
+
+<footer class="gray">
+    <h2 class="clasificacion">Sponsors</h2>
+        
+    <div>
+        <div class="sponsors">
+        
+         <a href="https://cabreiroa.es/">
+        <img class="withheight" src="images/Index/a4d2aa6dc619314522af55c2e711f3fd.png" alt=laliga></a>
+            
+         <a href="https://www.mahou.es/">
+        <img class="withheight" src="images/Index/36ead28b92f753b5779a39bff847b3d6.png" alt=laliga></a>
+        
+         <a href="https://www.allianz.es/">
+         <img class="withheight" src="images/Index/3fd108b8794a3cb0eed288a3a23e678c.png" alt=laliga></a>
+        
+         <a href="https://www.panini.es/shp_esp_es/comics/manga.html?gclid=EAIaIQobChMI1IOFnpvP_QIVzAiLCh3EggPaEAAYASAAEgJNrvD_BwE">
+         <img class="withheight" src="images/Index/66f12ac13eddeda7464790e0fc190ec6.png" alt=laliga></a>
+        
+         <a href="https://www.burgerking.es/home">
+         <img class="withheight" src="images/Index/739da4388079919501227ac0588be2c8.png" alt=laliga></a>
+        
+         <a href="https://eu.puma.com/es/es/home?gclid=EAIaIQobChMIpPKqtZvP_QIVl4xoCR3yFgxnEAAYASAAEgLCMPD_BwE">
+         <img class="withheight" src="images/Index/b5b4166fde892b89a1200abdd27f18bd.png" alt=laliga></a>
+        
+            </div>
+            <div class="sponsors">
+                
+        <a href="https://www.bkt-tires.com/es/es/">
+         <img class="withheight" src="images/Index/ba3aea3338119b98c5078cde1a6875b6.png" alt=laliga></a>
+                
+         <a href="https://www.bancosantander.es/particulares">
+         <img class="withheight" src="images/Index/bd8cb61af8e091e167e624db5b263315.png" alt=laliga></a>
+                
+         <a href="https://www.nissan.es/?&cid=psm_cmid=861142237_grid=43132502305_adid=583061371084&gclid=EAIaIQobChMI04zBx5nP_QIVSNrVCh3DxADlEAAYASAAEgLtWvD_BwE&gclsrc=aw.ds">
+         <img class="withheight" src="images/Index/bfa3e4da6cad5ac90d513d4befa880a4.png" alt=laliga></a>
+                
+         <a href="https://www.elcorteingles.es/">
+         <img class="withheight" src="images/Index/cb999face6f060866aed72bcebc6001c.png" alt=laliga></a>
+                
+        <a href="https://www.goltelevision.com/en-directo">
+         <img class="withheight" src="images/Index/cc5ed09f17ebd594ce1a101a6d899e33.png" alt=laliga></a>
+        
+                <a href="https://golball.com/contact?gclid=EAIaIQobChMIq-zB0ZXP_QIVE_3VCh1QUgTWEAAYASAAEgLm_vD_BwE" ><img class="withheight" src="images/Index/eff03773f7007b063988a7972b370386.png " alt=laliga></a>
+         
+        </div>
+    </div>
+    </footer>
+    </body>
+    </html>

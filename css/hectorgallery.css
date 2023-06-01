@@ -1,0 +1,33 @@
+.columnas{
+                height: 320px;
+                border-radius: 15px;
+                background-color: white;
+                border: solid 2px black;
+                margin: 14px;
+            }
+            .container{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            .imagenes{
+                display: flex;
+                justify-content: center;
+                
+            }
+.img{
+                display: flex;
+                justify-content: flex-start;
+                text-align: center;
+    width: 70%;
+    height: 80%;
+            }
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
